@@ -1,0 +1,66 @@
+@media only screen and (min-width: 1161px) {
+.container.wrapper {width: 108.8em;}
+.container {width: 114em;}
+}
+/* ================= Tablet 960px - 1160px ================= */
+@media only screen and (min-width: 960px) and (max-width: 1160px) {
+body {font-size:9px;}
+.container {padding: 0 2em 0 2em;}
+}
+/* ================= iPads (portrait and landscape) 1024px ================= */
+@media only screen and (max-width: 1024px) {
+.contact-info {padding: 2em 0 2em 0;}
+.logo {padding: 2.5em 0 2em 0;}
+}
+/* ================= Tablet (Portrait) 768px - 959px ================= */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+body {font-size:9px;}
+.container {padding: 0 2em 0 2em;}
+}
+
+@media only screen and (min-width: 800px) {
+#sidebar-toggle {display:none;}
+}
+@media only screen and (max-width: 800px) {
+.search {width: 100%;}
+.main-menu {display:none;}
+#sidebar-toggle {display:visible;}
+.flex-caption {width:94% !important;}
+}
+/* ================= Mobile (Portrait) < 767px ================= */
+@media only screen and (max-width: 767px) {
+body {font-size:9px;}
+.container {padding: 0 2em 0 2em;}
+.logo {padding: 2.5em 0 0 0; width: 100%; text-align: center;}
+.contact-info {width: 100%;text-align: center;}
+.sidebar {display:none;}
+.news {width: 100%;}
+.flex-title {font-size:2.5em; padding:0 0 0.3em 0;}
+.flex-caption p {font-size:1.5em; padding:0 0 0.3em 0;}
+}
+/* ================= Mobile (Portrait) 480px - 767px  ================= */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+body {font-size:9px;}
+.article-image-wrapper {width: 35%;}
+.article-content {width: 65%;}
+.logo {padding: 0;}
+}
+@media only screen and (max-width: 600px) {
+.footer-inner{width:100%;}
+.footer-inner.left,.footer-inner.right {text-align:center;}
+}
+@media only screen and (max-width: 369px) {
+.logo img {width: 100%;}
+.article {padding: 0 1em 0 1em;}
+.article-image-wrapper {width: 100%;}
+.article-content {width: 100%;}
+.article-image {margin: 0 0 1em 0;}
+}
+/* ================= Mobile (Portrait) 317px  ================= */
+@media only screen and (max-width: 317px) {
+body {font-size:9px;}
+.contact-info h2 {font-size:1em;}
+.contact-info ul li .social-text {font-size:1em;}
+.article {padding: 0;}
+}
+
